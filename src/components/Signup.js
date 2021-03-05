@@ -60,16 +60,16 @@ const Signup = () => {
                             <input type="text" name="name" value={name} onChange={handleName} className="form-control"/>
                         </div>
                         <div className="form-group">
-                            <label htmlFor="email">Name</label>
-                            <input type="text" name="email" value={email} onChange={handleEmail} className="form-control"/>
+                            <label htmlFor="email">Email</label>
+                            <input type="email" name="email" value={email} onChange={handleEmail} className="form-control"/>
                         </div>
                         <div className="form-group">
-                            <label htmlFor="password">Name</label>
-                            <input type="text" name="password" value={password} onChange={handlePassword} className="form-control"/>
+                            <label htmlFor="password">Password</label>
+                            <input type="password" name="password" value={password} onChange={handlePassword} className="form-control"/>
                         </div>
                         <div className="form-group">
-                            <label htmlFor="confirmPassword">Name</label>
-                            <input type="text" name="confirmPassword" value={confirmPassword} onChange={handleConfirmPassword} className="form-control"/>
+                            <label htmlFor="confirmPassword">Confirm Password</label>
+                            <input type="password" name="confirmPassword" value={confirmPassword} onChange={handleConfirmPassword} className="form-control"/>
                         </div>
                         <button type="submit" className="btn btn-primary float-right">Submit</button>
 
